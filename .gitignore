@@ -1,0 +1,66 @@
+# --- Swift Package Manager ---
+.build/
+.swiftpm/
+Packages/
+Package.resolved.bak
+*.xcodeproj
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+
+# --- Build output (scripts/bundle.sh) ---
+build/
+*.app
+*.dmg
+*.zip
+*.dSYM/
+*.dSYM.zip
+
+# --- Xcode (if opened in Xcode) ---
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+timeline.xctimeline
+playground.xcworkspace
+
+# --- Test / coverage ---
+*.profraw
+*.profdata
+*.xcresult
+coverage/
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sourcekit-lsp/
+.index-build/
+
+# --- Secrets / local config ---
+.env
+.env.*
+*.p12
+*.mobileprovision
+*.provisionprofile
+*.cer
+*.certSigningRequest
+notarization-credentials*
+
+# --- Logs ---
+*.log
